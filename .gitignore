@@ -1,0 +1,38 @@
+# Build / local
+*.exe
+*.o
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.a
+*.dSYM/
+*.log
+launch.log
+
+# IDE / agent
+.claude/
+.cursor/
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Wine / Proton leftovers
+drive_c/
+pfx/
+*.reg.bak
